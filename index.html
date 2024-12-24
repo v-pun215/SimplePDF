@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>SimplePDF</title>
 </head>
 <body>
-    <h1>SimplePDF</h1>
-    <p>SimplePDF is a simple PHP library that allows you to generate PDF files from HTML content.</p>
-    <p>It is based on the <a href="https://mpdf.github.io/">mPDF</a> library.</p>
-    <p>For more information, please visit the <a href="
+    <div class="content">
+        <h1>SimplePDF</h1>
+        <p>Summarize PDFs in an easy to understand way, using AI.</p>
+        <div class="upload">
+            <div id="drop-area">
+                Drag here to preview
+              </div>
+            <input type="file" id="file-input" multiple hidden>
+            <div id="preview-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
